@@ -1,0 +1,22 @@
+GET {{ api_url }}/resources
+accept: application/json
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+###
+
+POST {{ api_url }}/resources
+accept: application/json
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{
+  "icons": [
+    {
+      "src": "src",
+      "name": "name"
+    }
+  ]
+}
+
+###

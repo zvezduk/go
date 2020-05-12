@@ -1,0 +1,4 @@
+.env
+.idea
+http/rest-client.env.json
+*_mock.go
